@@ -103,7 +103,7 @@ To build and run the application, follow these steps:
 4. Run the application using the generated JAR file.
 
 #### Clone the repository:
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Ravipatel02/ThomasCookAssignment.git
 cd your-repo
 #### Configure the MySQL database connection:
 Edit the src/main/resources/application.properties file to include your MySQL database details:
