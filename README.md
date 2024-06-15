@@ -31,7 +31,7 @@ This project creates a small Spring Boot application with two endpoints: a POST 
 			"joiningDate": "jan-01-2021",
 			"exitDate": "may-20-2023"
 		},
-		...
+		
 	]
 }
 ```
@@ -102,10 +102,10 @@ To build and run the application, follow these steps:
 3. Build the project using Gradle.
 4. Run the application using the generated JAR file.
 
-# Clone the repository:
+#### Clone the repository:
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-# Configure the MySQL database connection:
+#### Configure the MySQL database connection:
 Edit the src/main/resources/application.properties file to include your MySQL database details:
 
 ```
@@ -116,9 +116,9 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
 
-# Build the project using Gradle:
+#### Build the project using Gradle:
 ./gradlew build
-# Run the application using the generated JAR file:
+#### Run the application using the generated JAR file:
 java -jar build/libs/your-app-name-0.0.1-SNAPSHOT.jar
 
 
